@@ -12,6 +12,7 @@
 		D34FA6FF22E89F5F00DED8E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34FA6FD22E89F5F00DED8E7 /* Main.storyboard */; };
 		D34FA70122E89F6000DED8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34FA70022E89F6000DED8E7 /* Assets.xcassets */; };
 		D34FA70422E89F6000DED8E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34FA70222E89F6000DED8E7 /* LaunchScreen.storyboard */; };
+		D34FA70C22E8A53700DED8E7 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FA70B22E8A53700DED8E7 /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D34FA70022E89F6000DED8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34FA70322E89F6000DED8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D34FA70522E89F6000DED8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34FA70B22E8A53700DED8E7 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D34FA6F922E89F5F00DED8E7 /* AppDelegate.swift */,
 				D34FA6FB22E89F5F00DED8E7 /* ViewController.swift */,
+				D34FA70B22E8A53700DED8E7 /* SelectionViewController.swift */,
 				D34FA6FD22E89F5F00DED8E7 /* Main.storyboard */,
 				D34FA70022E89F6000DED8E7 /* Assets.xcassets */,
 				D34FA70222E89F6000DED8E7 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34FA6FC22E89F5F00DED8E7 /* ViewController.swift in Sources */,
+				D34FA70C22E8A53700DED8E7 /* SelectionViewController.swift in Sources */,
 				D34FA6FA22E89F5F00DED8E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
